@@ -1,1 +1,136 @@
+html {
+		scroll-behavior: smooth;
+		 }
+        header {
+	display: flex;
+            justify-content: space-between; 
+            align-items: center; 
+            background-color:#383838;
+            padding: 20px;
+			border-radius:10px;
+        }
+		  .nav-buttons {
+            display: flex-end;
+            gap: 10px; 
+        }
+
+        .nav-buttons a {
+            text-decoration: none;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 10px;
+            transition: 0.3s;
+            font-size: 16px;
+			box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+        }
+		.nav-buttons:hover {
+        box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.4); /* Bayangan lebih besar saat hover */
+        transform: translateY(-2px); /* Sedikit naik */
+		
+		 .nav-buttons a:hover {
+            background-color: #A3A3A3;
+        }
+		
+		#Music
+		#Game
+		#Film
+body {
+			background-color:#282828;
+			}
+	body {
+	color:#E0E0E0;
+	font-family:verdana;
+	}
+      ul { 
+		list-style-type: disc;
+		}
+	ul li::marker {
+		font-size: 35px;
+		}
+		.judul {
+		text-align:center;
+		}
+      .gambar {
+            display: flex;
+            justify-content: space-around; /* Bisa juga pakai space-between atau center */
+            align-items: center;
+            gap: 15px; /* Jarak antar gambar */
+        }
+
+        .gambar img {
+            width: 300px;
+            height: 443,5;
+            border-radius: 10px; /* Tambahkan efek sudut melengkung */
+			
+        }
+		.gambar {
+		max-width: 300px;
+		text-align: center;
+		}
+		
+		.gambar img:hover {
+		 transform: scale(1.05); /* Gambar akan sedikit membesar saat dihover */
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5); /* Bayangan lebih besar saat dihover */
+		}
+      .link yutub{
+		display:flex;
+		justify-content:space-between;
+		gap:15px;
+		flex-wrap:wrap;
+		}
+		iframe{
+		width:32%;
+		height:200px;
+		}
+      .gitaris{
+		display:flex;
+		justify-content: center;
+		align-items:center;
+		gap:20px;
+	}
+	.gitaris img{
+		width: 300px;
+		border-radius:10px;
+		}
+		.gitaris img:hover {
+            transform: scale(1.05); /* Gambar akan sedikit membesar saat dihover */
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5); /* Bayangan lebih besar saat dihover */
+			}
+	.gitaris {
+	
+	text-align:center;
+	}
+      .gambar1{
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		border-radius: 10px;
+	}
+	.gambar1 img{
+		width:300px;
+		border-radius:10px;
+		}
+	.gambar1{
+	text-align:center;
+	width:fit-content;
+	}
+	.gambar1 img:hover{ 
+			transform: scale(1.05); /* Gambar akan sedikit membesar saat dihover */
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5); /* Bayangan lebih besar saat dihover */
+			}
+      .film{
+	display: flex;
+		justify-content: space-around;
+		align-items: center;
+		border-radius: 10px;
+	}
+	.film img{
+	width:300px;
+	border-radius:10px;
+	}
+	.film img:hover{
+	transform: scale(1.05); /* Gambar akan sedikit membesar saat dihover */
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5); /* Bayangan lebih besar saat dihover */
+			}
 
